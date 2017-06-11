@@ -71,7 +71,59 @@ var Hero = function (_Component) {
                     fileName: _jsxFileName,
                     lineNumber: 11
                 }
-            }, '\u0E2A\u0E21\u0E31\u0E04\u0E23\u0E40\u0E1B\u0E47\u0E19 Staff')));
+            }, '\u0E2A\u0E21\u0E31\u0E04\u0E23\u0E40\u0E1B\u0E47\u0E19 Staff')), _react2.default.createElement('svg', { version: '1.1', xmlns: 'http://www.w3.org/2000/svg', x: '0px', y: '0px', style: { display: 'none' }, __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 13
+                }
+            }, _react2.default.createElement('symbol', { id: 'wave', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 14
+                }
+            }, _react2.default.createElement('path', { d: 'M420,20c21.5-0.4,38.8-2.5,51.1-4.5c13.4-2.2,26.5-5.2,27.3-5.4C514,6.5,518,4.7,528.5,2.7c7.1-1.3,17.9-2.8,31.5-2.7c0,0,0,0,0,0v20H420z', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 15
+                }
+            }), _react2.default.createElement('path', { d: 'M420,20c-21.5-0.4-38.8-2.5-51.1-4.5c-13.4-2.2-26.5-5.2-27.3-5.4C326,6.5,322,4.7,311.5,2.7C304.3,1.4,293.6-0.1,280,0c0,0,0,0,0,0v20H420z', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 16
+                }
+            }), _react2.default.createElement('path', { d: 'M140,20c21.5-0.4,38.8-2.5,51.1-4.5c13.4-2.2,26.5-5.2,27.3-5.4C234,6.5,238,4.7,248.5,2.7c7.1-1.3,17.9-2.8,31.5-2.7c0,0,0,0,0,0v20H140z', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 17
+                }
+            }), _react2.default.createElement('path', { d: 'M140,20c-21.5-0.4-38.8-2.5-51.1-4.5c-13.4-2.2-26.5-5.2-27.3-5.4C46,6.5,42,4.7,31.5,2.7C24.3,1.4,13.6-0.1,0,0c0,0,0,0,0,0l0,20H140z', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 18
+                }
+            }))), _react2.default.createElement('svg', { className: 'water__wave water__wave_front', viewBox: '0 0 560 20', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 21
+                }
+            }, _react2.default.createElement('use', { xlinkHref: '#wave', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 22
+                }
+            })), _react2.default.createElement('svg', { className: 'water__wave water__wave_back', viewBox: '0 0 560 20', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 24
+                }
+            }, _react2.default.createElement('use', { xlinkHref: '#wave', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 25
+                }
+            })), _react2.default.createElement('img', { src: 'static/images/Cartoon-2.svg', className: 'cartoon cartoon-1', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 27
+                }
+            }), _react2.default.createElement('img', { src: 'static/images/Cartoon.svg', className: 'cartoon cartoon-2', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 28
+                }
+            }), _react2.default.createElement('img', { src: 'static/images/Cartoon.svg', className: 'cartoon cartoon-3', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 29
+                }
+            }));
         }
     }]);
 

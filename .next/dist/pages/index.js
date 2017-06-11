@@ -40,6 +40,10 @@ var _Form = require('../components/Form');
 
 var _Form2 = _interopRequireDefault(_Form);
 
+var _Footer = require('../components/Footer');
+
+var _Footer2 = _interopRequireDefault(_Footer);
+
 var _index = require('../scss/index.scss');
 
 var _index2 = _interopRequireDefault(_index);
@@ -64,31 +68,40 @@ var App = function (_Component) {
       return _react2.default.createElement('div', {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 12
+          lineNumber: 13
         }
       }, _react2.default.createElement(_head2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 13
+          lineNumber: 14
         }
       }, _react2.default.createElement('title', {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 14
-        }
-      }, 'Inthanin Guild Camp #1'), _react2.default.createElement('style', { dangerouslySetInnerHTML: { __html: _index2.default }, __source: {
-          fileName: _jsxFileName,
           lineNumber: 15
+        }
+      }, 'Inthanin Guild Camp #1'), _react2.default.createElement('link', { rel: 'shortcut icon', type: 'image/png', href: 'static/images/favicon.png', __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16
+        }
+      }), _react2.default.createElement('style', { dangerouslySetInnerHTML: { __html: _index2.default }, __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17
         }
       })), _react2.default.createElement(_Hero2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 17
+          lineNumber: 19
         }
       }), _react2.default.createElement(_Form2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 18
+          lineNumber: 20
+        }
+      }), _react2.default.createElement(_Footer2.default, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21
         }
       }));
     }

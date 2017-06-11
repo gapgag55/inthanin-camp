@@ -50,7 +50,6 @@ var Form = function (_Component) {
         key: 'sendData',
         value: function sendData(event) {
             event.preventDefault();
-            console.log("OK");
 
             _axios2.default.post('/post', {
                 name: this.refs.fname.value,
@@ -68,65 +67,65 @@ var Form = function (_Component) {
         value: function render() {
             return _react2.default.createElement('section', { id: 'section2', __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 27
+                    lineNumber: 26
                 }
             }, _react2.default.createElement('h3', {
                 __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 28
+                    lineNumber: 27
                 }
             }, '\u0E43\u0E1A\u0E2A\u0E21\u0E31\u0E04\u0E23\u0E40\u0E1B\u0E47\u0E19\u0E1E\u0E35\u0E48 Staff'), _react2.default.createElement('h4', {
                 __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 29
+                    lineNumber: 28
                 }
             }, '\u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A\u0E01\u0E32\u0E23\u0E40\u0E1B\u0E47\u0E19\u0E1E\u0E35\u0E48 Staff \u0E19\u0E31\u0E49\u0E19\u0E17\u0E38\u0E01\u0E04\u0E19\u0E08\u0E30\u0E16\u0E39\u0E01\u0E04\u0E31\u0E14\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E08\u0E32\u0E01\u0E1E\u0E35\u0E48\u0E46\u0E01\u0E25\u0E38\u0E48\u0E21\u0E21\u0E2B\u0E32\u0E27\u0E34\u0E17\u0E22\u0E32\u0E25\u0E31\u0E22\u0E0B\u0E36\u0E48\u0E07\u0E1C\u0E25\u0E1B\u0E23\u0E30\u0E01\u0E32\u0E28\u0E08\u0E30\u0E41\u0E08\u0E49\u0E07\u0E43\u0E2B\u0E49\u0E17\u0E23\u0E32\u0E1A\u0E1C\u0E48\u0E32\u0E19\u0E17\u0E32\u0E07 ', _react2.default.createElement('a', { href: 'https://www.facebook.com/Inthanin-Guide-Camp-267430787042458/', target: '_blank', __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 29
+                    lineNumber: 28
                 }
             }, 'Fanpage')), _react2.default.createElement('form', { onSubmit: this.sendData.bind(this), className: 'flex flex-wrap', __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 30
+                    lineNumber: 29
                 }
             }, _react2.default.createElement('div', { className: 'flex-1-3 padding', __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 31
+                    lineNumber: 30
                 }
             }, _react2.default.createElement('input', { type: 'text', placeholder: '\u0E0A\u0E37\u0E48\u0E2D', ref: 'fname', name: 'fname', __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 32
+                    lineNumber: 31
                 }
             })), _react2.default.createElement('div', { className: 'flex-1-3 padding', __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 34
+                    lineNumber: 33
                 }
             }, _react2.default.createElement('input', { type: 'text', placeholder: '\u0E19\u0E32\u0E21\u0E2A\u0E01\u0E38\u0E25', ref: 'lname', __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 35
+                    lineNumber: 34
                 }
             })), _react2.default.createElement('div', { className: 'flex-1-3 padding', __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 37
+                    lineNumber: 36
                 }
             }, _react2.default.createElement('input', { type: 'text', placeholder: '\u0E0A\u0E37\u0E48\u0E2D\u0E40\u0E25\u0E48\u0E19', ref: 'nname', __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 38
+                    lineNumber: 37
                 }
             })), _react2.default.createElement('div', { className: 'flex-1 padding', __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 41
+                    lineNumber: 40
                 }
             }, _react2.default.createElement('textarea', { placeholder: '\u0E17\u0E33\u0E44\u0E21\u0E16\u0E36\u0E07\u0E2A\u0E21\u0E31\u0E04\u0E23\u0E40\u0E1B\u0E47\u0E19\u0E1E\u0E35\u0E48 Staff?', ref: 'why', __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 42
+                    lineNumber: 41
                 }
             })), _react2.default.createElement('div', { className: 'flex-1', __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 45
+                    lineNumber: 44
                 }
             }, _react2.default.createElement('button', { type: 'submit', __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 46
+                    lineNumber: 45
                 }
             }, '\u0E2A\u0E48\u0E07\u0E04\u0E33\u0E15\u0E2D\u0E1A'))));
         }

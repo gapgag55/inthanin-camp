@@ -5,7 +5,6 @@ class Form extends Component {
 
     sendData(event) {
         event.preventDefault();
-        console.log("OK");
 
         axios.post('/post', {
             name: this.refs.fname.value,

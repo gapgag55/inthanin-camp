@@ -7,7 +7,7 @@
     "build": "next build",
     "dev": "next",
     "start": "node server.js",
-    "forver": "forver server.js"
+    "forver": "NODE_ENV=production forver server.js"
   },
   "keywords": [],
   "author": "",

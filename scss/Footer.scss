@@ -1,0 +1,30 @@
+footer {
+    padding: 20px;
+    background-color: #FFF;
+    font-family: 'db_heaventmed';
+}
+
+.flex-half {
+    flex: 1;
+}
+
+.wrapper {
+    width: 900px;
+    margin: 0 auto;
+
+    .left {
+        text-transform: uppercase;
+        letter-spacing: 1.2px;   
+    }
+
+    .right {
+        text-transform: uppercase;
+        text-align: right;
+
+        a {
+            text-decoration: none;
+            color: #222;
+        }
+    }
+}
+

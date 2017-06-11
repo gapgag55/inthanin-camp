@@ -4,10 +4,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    overflow: hidden;
 }
 
 .heading {
     text-align: center;
+    position: relative;
+    z-index: 1000;
 }
 
 h1, h2, .button {
@@ -31,13 +35,110 @@ h2 {
 }
 
 .button {
-    background: #5AADDF;
+    background: #3D3E3E;
     border-radius: 30px;
-    padding: 10px 20px;
+    padding: 10px 40px;
     text-decoration: none;
     margin: 20px 0;
     display: inline-block;
     font-family: 'db_heaventlight';
     box-shadow: 2px 2px 0px #2176a9;
     font-size: 20px;
+}
+
+.cartoon {
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+}
+
+
+.cartoon-1 {
+    animation: cartoon-1 3.4s infinite ease-in-out;
+    left: 45%;
+    z-index: 1000;
+    bottom: -20px;
+}
+
+.cartoon-2 {
+    animation: cartoon-2 2.5s infinite ease-in-out;
+    left: 30%;
+    width: 60px;
+}
+
+.cartoon-3 {
+    animation: cartoon-3 3s infinite ease-in-out;
+    left: 70%;
+    width: 50px;
+}
+
+.water {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 5;
+  bottom: -20px;
+  left: 0;
+  background: #32bafa;
+  transform: translate(0, 50%);
+  
+  &__inner {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+  }
+  
+  &__wave {
+    width: 200%;
+    position: absolute;
+    bottom: 100%;
+    z-index: 999;
+    bottom: -1px;
+
+    &_back {
+      right: 0;
+      fill: #F7FDFC;
+      animation: wave-back 3.5s infinite linear;
+      z-index: 1001;
+    }
+    &_front {
+      left: 0;
+      fill: #A2E8F5;
+      animation: wave-front 3s infinite linear;
+    }
+  }
+}
+
+@keyframes wave-front {
+  100% {
+    transform: translate(-50%, 0);
+  }
+}
+
+@keyframes wave-back {
+  100% {
+    transform: translate(50%, 0);
+  }
+}
+
+
+@keyframes cartoon-1 {
+    50% {
+        transform: translateY(-10%) rotate(-2deg);
+    }
+}
+
+@keyframes cartoon-2 {
+    50% {
+        transform: translateY(-5%) rotate(-2deg);
+    }
+}
+
+@keyframes cartoon-3 {
+    50% {
+        transform: translateY(-10%) rotate(-2deg);
+    }
 }
