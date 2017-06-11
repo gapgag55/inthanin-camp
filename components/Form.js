@@ -25,7 +25,7 @@ class Form extends Component {
         return (
             <section id="section2">
                 <h3>ใบสมัครเป็นพี่ Staff</h3>
-                <h4>สำหรับการเป็นพี่ Staff นั้นทุกคนจะถูกคัดเลือกจากพี่ๆกลุ่มมหาวิทยาลัยซึ่งผลประกาศจะแจ้งให้ทราบผ่านทาง <a href="https://www.facebook.com/Inthanin-Guide-Camp-267430787042458/" target="_blank">Fanpage</a></h4>
+                <h4>สำหรับการเป็นพี่ Staff นั้นทุกคนจะถูกคัดเลือกจากพี่ๆกลุ่มมหาวิทยาลัยซึ่งผลประกาศจะแจ้งให้ทราบผ่านทาง <a href="https://www.facebook.com/inthaninguidecamp/" target="_blank">Fanpage</a></h4>
                 <form onSubmit={this.sendData.bind(this)} className="flex flex-wrap">
                     <div className="flex-1-3 padding">
                         <input type="text" placeholder="ชื่อ" ref="fname" name="fname"/>

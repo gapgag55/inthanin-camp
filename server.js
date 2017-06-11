@@ -12,7 +12,7 @@ app.prepare()
   const mongoose = require('mongoose')
   const mongo = mongoose.connect('mongodb://mang:mang@ds119772.mlab.com:19772/inthanin');
 
-  var schema = new mongoose.Schema({ 
+  var schema = new mongoose.Schema({
     firstName: 'string',
     lastName: 'string',
     nickName: 'string',
@@ -25,7 +25,7 @@ app.prepare()
   server.use(bodyParser.json());
 
   server.post('/post', (req, res) => {
-    
+
     let { name, lname, nname, why } = req.body
 
     var db = new Form({
@@ -47,9 +47,9 @@ app.prepare()
     return handle(req, res)
   })
 
-  server.listen(8000, (err) => {
+  server.listen(process.env.PORT, (err) => {
     if (err) throw err
-    console.log('> Ready on 8000')
+    console.log(`> Ready on ${process.env.PORT}`)
   })
 })
 .catch((ex) => {

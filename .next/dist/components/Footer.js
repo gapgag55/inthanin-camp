@@ -66,7 +66,7 @@ var Footer = function (_Component) {
                     fileName: _jsxFileName,
                     lineNumber: 11
                 }
-            }, _react2.default.createElement(_link2.default, { href: 'https://www.facebook.com/Inthanin-Guide-Camp-267430787042458/', __source: {
+            }, _react2.default.createElement(_link2.default, { href: 'https://www.facebook.com/inthaninguidecamp/', __source: {
                     fileName: _jsxFileName,
                     lineNumber: 11
                 }
