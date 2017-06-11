@@ -1,5 +1,5 @@
 #section2 {
-    height: 100vh;
+    height: 100%;
     background-color: #F7FDFC;
     padding: 40px 0;
     display: flex;
@@ -54,8 +54,11 @@ form {
 }
 
 .flex-1-3 {
-    flex: 1;
-    width: 32%;
+    flex-basis: 31.1%;
+}
+
+.flex-1-2 {
+    flex-basis: 47.7%;
 }
 
 .flex-1 {
@@ -73,8 +76,15 @@ textarea {
     font-family: 'db_heaventlight';
     background: #FFFFFF;
     border: 1px solid #EDEDED;
+
+    &.required {
+        border-color: red;
+    }
 }
 
+textarea {
+    min-height: 150px;
+}
 
 input:focus,
 textarea:focus {

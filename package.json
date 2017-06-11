@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "next build",
-    "dev": "next",
-    "start": "node server.js",
+    "dev": "next start",
+    "start": "next start -p $PORT",
     "forver": "NODE_ENV=production forver server.js"
   },
   "keywords": [],

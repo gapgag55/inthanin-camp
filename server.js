@@ -9,29 +9,39 @@ const handle = app.getRequestHandler()
 app.prepare()
 .then(() => {
   const server = express()
-  const mongoose = require('mongoose')
-  const mongo = mongoose.connect('mongodb://mang:mang@ds119772.mlab.com:19772/inthanin');
 
-  var schema = new mongoose.Schema({
-    firstName: 'string',
-    lastName: 'string',
-    nickName: 'string',
-    why: 'string',
-    createAt: Date
-  });
-  var Form = mongoose.model('Form', schema);
+  const mongoose = require('mongoose')
+  const Staff  = require('./models/staff')
+  mongoose.connect('mongodb://mang:mang@ds119772.mlab.com:19772/inthanin');
 
   server.use(bodyParser.urlencoded({ extended: true }));
   server.use(bodyParser.json());
 
-  server.post('/post', (req, res) => {
+  server.post('/staff', (req, res) => {
 
-    let { name, lname, nname, why } = req.body
+    let { 
+      fname, 
+      nname, 
+      facebook, 
+      gen,
+      interest,
+      skill,
+      camp,
+      activity_favorite,
+      suggestion,
+      why
+    } = req.body
 
-    var db = new Form({
-        firstName: name,
-        lastName: lname,
+    var db = new Staff({
+        fullname: fname,
         nickName: nname,
+        facebook,
+        generation: gen,
+        interest,
+        skill,
+        camp,
+        activity_favorite,
+        suggestion,
         why: why,
         createAt: new Date()
     })
@@ -39,7 +49,7 @@ app.prepare()
     db.save((err) => {
         if (err) throw err
 
-        console.log('saved')
+        res.send({added: true})
     })
   })
 
