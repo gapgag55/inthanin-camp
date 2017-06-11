@@ -1,0 +1,43 @@
+.header {
+    background-color: #7BDFF2;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading {
+    text-align: center;
+}
+
+h1, h2, .button {
+    color: #FFFFFF;
+}
+
+h1 {
+    font-family: Pacifico;
+    font-size: 144px;
+    letter-spacing: -0.32px;
+    line-height: 160px;
+}
+
+h2 {
+    font-family: 'db_heaventlight';
+    font-size: 48px;
+    letter-spacing: -0.11px;
+    line-height: 70px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.button {
+    background: #5AADDF;
+    border-radius: 30px;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 20px 0;
+    display: inline-block;
+    font-family: 'db_heaventlight';
+    box-shadow: 2px 2px 0px #2176a9;
+    font-size: 20px;
+}

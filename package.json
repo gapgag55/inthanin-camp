@@ -1,0 +1,36 @@
+{
+  "name": "inthanin-camp-next",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "next build",
+    "dev": "next",
+    "start": "node server.js",
+    "forver": "forver server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^7.1.1",
+    "express": "^4.15.3",
+    "node-sass": "^4.5.3",
+    "postcss-easy-import": "^2.1.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-scrollchor": "^3.0.0",
+    "webpack": "^2.6.1"
+  },
+  "devDependencies": {
+    "axios": "^0.16.2",
+    "body-parser": "^1.17.2",
+    "glob": "^7.1.2",
+    "mongoose": "^4.10.5",
+    "next": "^2.4.3",
+    "postcss-loader": "^2.0.5",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^6.0.5",
+    "style-loader": "^0.18.2"
+  }
+}
