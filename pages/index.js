@@ -19,7 +19,7 @@ class App extends Component {
           <meta property="og:type"               content="article" />
           <meta property="og:title"              content="เปิดรับสมัคร Staff ค่ายอินทนิลไกด์แคมป์ #1" />
           <meta property="og:description"        content="ตอนนี้กำลังเปิดรับสมัครพี่ๆช่วยงานค่ายอินทนิลไกด์แคมป์ ค่ายสานฝันสำหรับน้องๆโรงเรียนเทศบาลเฉลิมพระเกียรติฯสมเด็จพระเทพรัตนราชสุดาสยามบรมราชกุมารี" />
-          <meta property="og:image"              content="http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg" />
+          <meta property="og:image"              content="http://www.inthanincamp.xyz/static/images/facebook.png" />
         </Head>
         <Hero />
         <Form />
