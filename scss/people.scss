@@ -1,0 +1,51 @@
+.people {
+    .wrapper {
+        width: 1100px;
+        padding: 40px;
+        font-family: 'db_heaventmed';
+        span {
+            font-size: 20px;
+        }
+
+        .text-right { 
+            text-align: right;
+        }
+    }
+    
+    .head, .row {
+        padding: 20px 0;
+    }
+
+    .row {
+        font-family: 'db_heaventlight';
+    }
+
+    .head, .body {
+        border-bottom: 1px solid #eee;
+        font-family: 'db_heaventmed';
+
+        div:not(.row) {
+            padding: 0 10px;
+
+            &:first-child {
+                padding-left: 0;
+            }
+
+            &:last-child {
+                padding-right: 0;
+            }
+        }
+
+        .row {
+            border-bottom: 1px solid #eee;
+
+            &:last-child {
+                border: none;
+            }
+        }
+
+        form {
+            width: auto;
+        }
+    }
+}

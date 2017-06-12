@@ -11,6 +11,7 @@ var schema = new mongoose.Schema({
     activity_favorite: 'string',
     suggestion: 'string',
     why: 'string',
+    pass: false,
     createAt: Date
 });
 
