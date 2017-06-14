@@ -71,25 +71,29 @@ var Header = function (_Component) {
                     fileName: _jsxFileName,
                     lineNumber: 12
                 }
-            }), _react2.default.createElement('meta', { property: 'og:url', content: 'http://www.inthanincamp.xyz/', __source: {
+            }), _react2.default.createElement('meta', { name: 'viewport', content: 'width=device-width, initial-scale=1', __source: {
                     fileName: _jsxFileName,
                     lineNumber: 13
                 }
-            }), _react2.default.createElement('meta', { property: 'og:type', content: 'article', __source: {
+            }), _react2.default.createElement('meta', { property: 'og:url', content: 'http://www.inthanincamp.xyz/', __source: {
                     fileName: _jsxFileName,
                     lineNumber: 14
                 }
-            }), _react2.default.createElement('meta', { property: 'og:title', content: '\u0E40\u0E1B\u0E34\u0E14\u0E23\u0E31\u0E1A\u0E2A\u0E21\u0E31\u0E04\u0E23 Staff \u0E04\u0E48\u0E32\u0E22\u0E2D\u0E34\u0E19\u0E17\u0E19\u0E34\u0E25\u0E44\u0E01\u0E14\u0E4C\u0E41\u0E04\u0E21\u0E1B\u0E4C #1', __source: {
+            }), _react2.default.createElement('meta', { property: 'og:type', content: 'article', __source: {
                     fileName: _jsxFileName,
                     lineNumber: 15
                 }
-            }), _react2.default.createElement('meta', { property: 'og:description', content: '\u0E15\u0E2D\u0E19\u0E19\u0E35\u0E49\u0E01\u0E33\u0E25\u0E31\u0E07\u0E40\u0E1B\u0E34\u0E14\u0E23\u0E31\u0E1A\u0E2A\u0E21\u0E31\u0E04\u0E23\u0E1E\u0E35\u0E48\u0E46\u0E0A\u0E48\u0E27\u0E22\u0E07\u0E32\u0E19\u0E04\u0E48\u0E32\u0E22\u0E2D\u0E34\u0E19\u0E17\u0E19\u0E34\u0E25\u0E44\u0E01\u0E14\u0E4C\u0E41\u0E04\u0E21\u0E1B\u0E4C \u0E04\u0E48\u0E32\u0E22\u0E2A\u0E32\u0E19\u0E1D\u0E31\u0E19\u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A\u0E19\u0E49\u0E2D\u0E07\u0E46\u0E42\u0E23\u0E07\u0E40\u0E23\u0E35\u0E22\u0E19\u0E40\u0E17\u0E28\u0E1A\u0E32\u0E25\u0E40\u0E09\u0E25\u0E34\u0E21\u0E1E\u0E23\u0E30\u0E40\u0E01\u0E35\u0E22\u0E23\u0E15\u0E34\u0E2F\u0E2A\u0E21\u0E40\u0E14\u0E47\u0E08\u0E1E\u0E23\u0E30\u0E40\u0E17\u0E1E\u0E23\u0E31\u0E15\u0E19\u0E23\u0E32\u0E0A\u0E2A\u0E38\u0E14\u0E32\u0E2A\u0E22\u0E32\u0E21\u0E1A\u0E23\u0E21\u0E23\u0E32\u0E0A\u0E01\u0E38\u0E21\u0E32\u0E23\u0E35', __source: {
+            }), _react2.default.createElement('meta', { property: 'og:title', content: '\u0E40\u0E1B\u0E34\u0E14\u0E23\u0E31\u0E1A\u0E2A\u0E21\u0E31\u0E04\u0E23 Staff \u0E04\u0E48\u0E32\u0E22\u0E2D\u0E34\u0E19\u0E17\u0E19\u0E34\u0E25\u0E44\u0E01\u0E14\u0E4C\u0E41\u0E04\u0E21\u0E1B\u0E4C #1', __source: {
                     fileName: _jsxFileName,
                     lineNumber: 16
                 }
-            }), _react2.default.createElement('meta', { property: 'og:image', content: 'http://www.inthanincamp.xyz/static/images/facebook.png', __source: {
+            }), _react2.default.createElement('meta', { property: 'og:description', content: '\u0E15\u0E2D\u0E19\u0E19\u0E35\u0E49\u0E01\u0E33\u0E25\u0E31\u0E07\u0E40\u0E1B\u0E34\u0E14\u0E23\u0E31\u0E1A\u0E2A\u0E21\u0E31\u0E04\u0E23\u0E1E\u0E35\u0E48\u0E46\u0E0A\u0E48\u0E27\u0E22\u0E07\u0E32\u0E19\u0E04\u0E48\u0E32\u0E22\u0E2D\u0E34\u0E19\u0E17\u0E19\u0E34\u0E25\u0E44\u0E01\u0E14\u0E4C\u0E41\u0E04\u0E21\u0E1B\u0E4C \u0E04\u0E48\u0E32\u0E22\u0E2A\u0E32\u0E19\u0E1D\u0E31\u0E19\u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A\u0E19\u0E49\u0E2D\u0E07\u0E46\u0E42\u0E23\u0E07\u0E40\u0E23\u0E35\u0E22\u0E19\u0E40\u0E17\u0E28\u0E1A\u0E32\u0E25\u0E40\u0E09\u0E25\u0E34\u0E21\u0E1E\u0E23\u0E30\u0E40\u0E01\u0E35\u0E22\u0E23\u0E15\u0E34\u0E2F\u0E2A\u0E21\u0E40\u0E14\u0E47\u0E08\u0E1E\u0E23\u0E30\u0E40\u0E17\u0E1E\u0E23\u0E31\u0E15\u0E19\u0E23\u0E32\u0E0A\u0E2A\u0E38\u0E14\u0E32\u0E2A\u0E22\u0E32\u0E21\u0E1A\u0E23\u0E21\u0E23\u0E32\u0E0A\u0E01\u0E38\u0E21\u0E32\u0E23\u0E35', __source: {
                     fileName: _jsxFileName,
                     lineNumber: 17
+                }
+            }), _react2.default.createElement('meta', { property: 'og:image', content: 'http://www.inthanincamp.xyz/static/images/facebook.png', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 18
                 }
             }));
         }

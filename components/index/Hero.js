@@ -2,13 +2,16 @@ import React, { Component } from 'react'
 import Scrollchor from 'react-scrollchor';
 
 class Hero extends Component {
+
     render() {
         return (
             <section className="header">
+
                 <div className="heading">
                     <h1>Inthanin</h1>
                     <h2>guide camp #1</h2>
-                    <Scrollchor to="#section2" animate={{ offset: 0, duration: 800 }} className="button">สมัครเป็น Staff</Scrollchor>
+                    <p>ค่ายจัดวันที่ 8-9-10 ณ โรงเรียนแม่สอด</p>
+                    <Scrollchor to="#section2" animate={{ offset: 0, duration: 800 }} className="button">สมัครเข้าร่วมค่าย</Scrollchor>
                 </div>
                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" style={{display: 'none'}}>
                     <symbol id="wave">

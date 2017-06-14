@@ -39,6 +39,7 @@ h4 a {
 form {
     width: 900px;
     margin: 0 auto;
+    max-width: 100%;
 }
 
 .padding {
@@ -58,7 +59,7 @@ form {
 }
 
 .flex-1-2 {
-    flex-basis: 47.7%;
+    flex-basis: 47.3%;
 }
 
 .flex-1 {
@@ -104,4 +105,33 @@ button {
     border-radius: 20px;
     box-shadow: 2px 2px 0px #000;
     outline: 0;
+}
+
+
+.wrapper {
+    max-width: 100%;
+}
+
+@media screen and (max-width: 700px) {
+    #section2 {
+        padding: 20px;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+
+    form,
+    .flex-1-3,
+    .flex-1-2 {
+        width: 100%;
+    }
+    
+    .wrapper {
+        width: 100% !important;
+    }
+
+    .padding {
+        box-sizing: border-box;
+    }
 }

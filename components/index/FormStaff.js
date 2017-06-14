@@ -1,9 +1,8 @@
 import React, { Component } from 'react'
 import axios from 'axios'
 import Link from 'next/link'
-// import MyOwnInput from './form/MyOwnInput'
 
-class Form extends Component {
+class FormStaff extends Component {
 
     constructor(props) {
         super(props)
@@ -73,9 +72,11 @@ class Form extends Component {
         return (
             <div>
                 <section id="section2">
+                    <div className="wrapper">
                     <h3>ใบสมัครเป็นพี่ Staff</h3>
-                    <h4>สำหรับการเป็นพี่ Staff นั้นทุกคนจะถูกคัดเลือกจากพี่ๆกลุ่มมหาวิทยาลัยซึ่งผลประกาศจะแจ้งให้ทราบผ่านทาง <a href="https://www.facebook.com/inthaninguidecamp/" target="_blank">Fanpage</a> <br/>โปรดกรอกแบบฟอร์มให้ดีที่สุด</h4>
-                    
+                    <h4>(สิทธิ์เฉพาะรุ่นพี่ที่จบแล้ว) - สำหรับการเป็นพี่ Staff นั้นทุกคนจะถูกคัดเลือกจากพี่ๆกลุ่มมหาวิทยาลัยซึ่งผลประกาศจะแจ้งให้ทราบผ่านทาง <a href="https://www.facebook.com/inthaninguidecamp/" target="_blank">Fanpage</a> โปรดกรอกแบบฟอร์มให้ดีที่สุด</h4>
+                    </div>
+
                     <form onSubmit={this.sendData.bind(this)} className="flex flex-wrap">
                         <div className="flex-1-3 padding">
                             <input type="text" placeholder="ชื่อ - นามสกุล" ref="fname" required/>
@@ -126,4 +127,4 @@ class Form extends Component {
 }
 
 
-export default Form
+export default FormStaff

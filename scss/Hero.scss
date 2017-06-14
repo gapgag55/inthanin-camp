@@ -12,6 +12,13 @@
     text-align: center;
     position: relative;
     z-index: 1000;
+
+    p {
+        font-family: 'db_heaventlight';
+        color: #444;
+        font-size: 30px;
+        margin: 0;
+    }
 }
 
 h1, h2, .button {
@@ -35,15 +42,23 @@ h2 {
 }
 
 .button {
-    background: #3D3E3E;
-    border-radius: 30px;
-    padding: 10px 40px;
-    text-decoration: none;
     margin: 20px 0;
     display: inline-block;
     font-family: 'db_heaventlight';
-    box-shadow: 2px 2px 0px #2176a9;
     font-size: 20px;
+    background: #3D3E3E;
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 10px 70px;
+    box-shadow: 2px 2px 0px #2176a9;
+
+    &:last-child {
+        margin-right: 0;
+
+        a {
+            padding: 10px 20px;
+        }
+    }
 }
 
 .cartoon {
@@ -140,5 +155,29 @@ h2 {
 @keyframes cartoon-3 {
     50% {
         transform: translateY(-10%) rotate(-2deg);
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .header {
+        padding: 20px;
+        box-sizing: border-box;
+
+        h1 {
+            font-size: 80px;
+            line-height: 1;
+        }
+
+        h2 {
+            font-size: 30px;
+        }
+
+        p {
+            font-size: 25px;
+        }
+    }
+
+    svg, .cartoon {
+        display: none;
     }
 }

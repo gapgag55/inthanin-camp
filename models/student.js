@@ -15,6 +15,6 @@ var schema = new mongoose.Schema({
     createAt: Date
 });
 
-var Staff = mongoose.model('staff', schema);
+var Student = mongoose.model('student', schema);
 
-module.exports = Staff;
+module.exports = Student;

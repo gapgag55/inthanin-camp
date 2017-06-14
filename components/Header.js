@@ -10,6 +10,7 @@ class Header extends Component {
             <title>Inthanin Guild Camp #1</title>
             <link rel="shortcut icon" type="image/png" href="static/images/favicon.png"/>
             <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
             <meta property="og:url"                content="http://www.inthanincamp.xyz/" />
             <meta property="og:type"               content="article" />
             <meta property="og:title"              content="เปิดรับสมัคร Staff ค่ายอินทนิลไกด์แคมป์ #1" />
