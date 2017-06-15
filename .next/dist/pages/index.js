@@ -44,9 +44,9 @@ var _Hero = require('../components/index/Hero');
 
 var _Hero2 = _interopRequireDefault(_Hero);
 
-var _FormStudent = require('../components/index/FormStudent');
+var _FormStaff = require('../components/index/FormStaff');
 
-var _FormStudent2 = _interopRequireDefault(_FormStudent);
+var _FormStaff2 = _interopRequireDefault(_FormStaff);
 
 var _index = require('../scss/index.scss');
 
@@ -55,8 +55,7 @@ var _index2 = _interopRequireDefault(_index);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var _jsxFileName = '/Users/kopkap/Desktop/works/inthanin-camp-next/pages/index.js?entry';
-// import FormStaff from '../components/index/FormStaff'
-
+// import FormStudent from '../components/index/FormStudent'
 
 var App = function (_Component) {
   (0, _inherits3.default)(App, _Component);
@@ -84,14 +83,14 @@ var App = function (_Component) {
     value: function render() {
       var render;
       // if(this.state.isStaff) {
-      render = _react2.default.createElement(_FormStudent2.default, {
+      render = _react2.default.createElement(_FormStaff2.default, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 32
         }
       });
       // } else {
-      //   render = <FormStudent />
+      // render = <FormStudent />
       // }
 
       return _react2.default.createElement('div', {

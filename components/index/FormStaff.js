@@ -20,13 +20,14 @@ class FormStaff extends Component {
         event.preventDefault();
 
         var data = {
-            fname:     this.refs.fname.value,
-            nname:     this.refs.nname.value,
-            gen:       this.refs.gen.value,
-            facebook:  this.refs.facebook.value,
-            interest:  this.refs.interest.value,
-            skill:     this.refs.skill.value,
-            camp:      this.refs.camp.value,
+            fname:      this.refs.fname.value,
+            nname:      this.refs.nname.value,
+            gen:        this.refs.gen.value,
+            facebook:   this.refs.facebook.value,
+            occupation: this.refs.occupation.value,
+            interest:   this.refs.interest.value,
+            skill:      this.refs.skill.value,
+            camp:       this.refs.camp.value,
             activity_favorite:  this.refs.activity_favorite.value,
             why:         this.refs.why.value,
             suggestion:  this.refs.suggestion.value,
@@ -90,8 +91,11 @@ class FormStaff extends Component {
                         <div className="flex-1 padding">
                             <input type="text" placeholder="ชื่อ Facebook" ref="facebook" required/>
                         </div>
+                        <div className="flex-1 padding">
+                            <input type="text" placeholder="ระบุคณะสาขา มหาวิทยาลัยของท่าน (หากไม่ได้เป็นนักศึกษา ระบุสถานภาพปัจจุบันมาพอเข้าใจ)" ref="occupation" required/>
+                        </div>
                         <div className="flex-1-2 padding">
-                            <textarea placeholder="ความสนใจ" ref="interest" required></textarea>
+                            <textarea placeholder="สิ่งที่สนใจ" ref="interest" required></textarea>
                         </div>
 
                         <div className="flex-1-2 padding">
@@ -103,7 +107,7 @@ class FormStaff extends Component {
                         </div>
 
                         <div className="flex-1-2 padding">
-                            <textarea placeholder="กิจกรรมที่ประทับใจ เพราะอะไร" ref="activity_favorite" required></textarea>
+                            <textarea placeholder="กิจกรรมที่เคยทำแล้วประทับใจคืออะไร? เพราะอะไร?" ref="activity_favorite" required></textarea>
                         </div>
 
                         <div className="flex-1 padding">

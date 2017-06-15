@@ -14,9 +14,9 @@ class People extends Component {
     }
 
     componentDidMount() {
-        axios.get('/student').then((response) => {
+        axios.get('/staff').then((response) => {
             this.setState({
-                people: response.data.student
+                people: response.data.staff
             })
         })
     }

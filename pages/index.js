@@ -5,8 +5,8 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 
 import Hero from '../components/index/Hero'
-// import FormStaff from '../components/index/FormStaff'
-import FormStudent from '../components/index/FormStudent'
+import FormStaff from '../components/index/FormStaff'
+// import FormStudent from '../components/index/FormStudent'
 
 import stylesheet from '../scss/index.scss'
 
@@ -29,9 +29,9 @@ class App extends Component {
   render() {
     var render;
     // if(this.state.isStaff) {
-      render = <FormStudent />
+      render = <FormStaff />
     // } else {
-    //   render = <FormStudent />
+      // render = <FormStudent />
     // }
     
     return (

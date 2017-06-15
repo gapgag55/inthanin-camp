@@ -2,16 +2,42 @@ import React, { Component } from 'react'
 import Scrollchor from 'react-scrollchor';
 
 class Hero extends Component {
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            show: false
+        }
+    }
+
+    show() {
+        this.setState({
+            show: true
+        })
+    }
+
+    componentDidMount() {
+        window.addEventListener('scroll', this.show.bind(this))
+    }
 
     render() {
+        var show = this.state.show ? 'bar is-show' : 'bar';
         return (
+            <div>
+            <div className={show}>
+                กำหนดการ : 
+                <ul>
+                    <li>รับสมัคร Staff ตั้งแต่วันนี้ - 20 มิถุนายน 2560</li>
+                    <li>รับสมัครน้องค่าย วันที่ 21 - 30 มิถุนายน 2560</li>
+                    <li>ประกาศผลทั้ง Staff และน้องค่าย วันที่ 6 กรกฎาคม 2560</li>
+                </ul>
+            </div>
             <section className="header">
-
                 <div className="heading">
                     <h1>Inthanin</h1>
                     <h2>guide camp #1</h2>
-                    <p>ค่ายจัดวันที่ 8-9-10 ณ โรงเรียนแม่สอด</p>
-                    <Scrollchor to="#section2" animate={{ offset: 0, duration: 800 }} className="button">สมัครเข้าร่วมค่าย</Scrollchor>
+                    <p>ค่ายจัดวันที่ 8,9,10 กรกฎาคม 2560 - สถานที่จะแจ้งให้ทราบผ่านแฟนเพจ</p>
+                    <Scrollchor to="#section2" animate={{ offset: 0, duration: 800 }} className="button">สมัครเป็น Staff - (เฉพาะรุ่นพี่ที่จบ ม.ปลาย)</Scrollchor>
                 </div>
                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" style={{display: 'none'}}>
                     <symbol id="wave">
@@ -31,6 +57,7 @@ class Hero extends Component {
                 <img src="static/images/Cartoon.svg" className="cartoon cartoon-2" />
                 <img src="static/images/Cartoon.svg" className="cartoon cartoon-3" />
             </section>
+            </div>
         )
     }
 }

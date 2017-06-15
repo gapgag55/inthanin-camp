@@ -16,9 +16,9 @@ app.prepare()
   const server = express()
 
   const mongoose = require('mongoose')
-  // const Staff  = require('./models/staff')
+  const Staff  = require('./models/staff')
   const Admin  = require('./models/admin')
-  const Student  = require('./models/student')
+  // const Student  = require('./models/student')
   const mongo = mongoose.connect('mongodb://mang:mang@ds119772.mlab.com:19772/inthanin');
 
   server.use(bodyParser.urlencoded({ extended: true }));
@@ -53,12 +53,13 @@ app.prepare()
   });
 
 
-  server.post('/student', (req, res) => {
+  server.post('/staff', (req, res) => {
 
     let { 
       fname, 
       nname, 
       facebook, 
+      occupation,
       gen,
       interest,
       skill,
@@ -68,10 +69,11 @@ app.prepare()
       why
     } = req.body
 
-    var db = new Student({
+    var db = new Staff({
         fullname: fname,
         nickName: nname,
         facebook,
+        occupation, 
         generation: gen,
         interest,
         skill,
@@ -89,15 +91,15 @@ app.prepare()
     })
   })
 
-  server.get('/student', (req, res) => {
-    Student.find({}, (err, student) => {
-      res.send({student})
+  server.get('/staff', (req, res) => {
+    Staff.find({}, (err, staff) => {
+      res.send({staff})
     })
   })
 
   server.post('/pass', (req, res) => {
 
-    Student.update(
+    Staff.update(
       { _id: req.body.id }, 
       { $set: { pass: req.body.value} }, 
       (err, staff) => {

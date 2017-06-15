@@ -8,6 +8,43 @@
     overflow: hidden;
 }
 
+.bar {
+    padding: 20px 10px;
+    font-family: 'db_heaventlight';
+    display: flex;
+    justify-content: center;
+    background-color: #3D3E3E;
+    color: #FFF;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99999;
+    transform: translateY(-100%);
+    transition: all .2s ease-in-out;
+
+    &.is-show {
+        transform: translate(0);
+        transition: all .2s ease-in-out 0.5s;
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+        margin: 0;
+
+        li {
+            padding-right: 10px;
+            margin-right: 10px;
+            border-right: 1px dashed #FFF; 
+            text-transform: uppercase;
+
+            &:last-child {
+                border-right: 0;
+            }
+        }
+    }   
+}
+
 .heading {
     text-align: center;
     position: relative;
@@ -159,6 +196,10 @@ h2 {
 }
 
 @media screen and (max-width: 700px) {
+    .bar {
+        display: none;
+    }
+    
     .header {
         padding: 20px;
         box-sizing: border-box;
