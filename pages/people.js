@@ -50,6 +50,7 @@ class People extends Component {
                             <div className="flex-1">ชื่อเล่น</div>
                             <div className="flex-1">รุ่น</div>
                             <div className="flex-1">Facebook</div>
+                            <div className="flex-1">มหาวิทยาลัย</div>
                             <div className="flex-1">ความสนใจ</div>
                             <div className="flex-1">เหตุผลที่อยากเข้าร่วม</div>
                             <div className="flex-1">กิจกรรมที่ชอบ</div>
@@ -66,6 +67,7 @@ class People extends Component {
                                 <div className="flex-1">{person.nickName}</div>
                                 <div className="flex-1">{person.generation}</div>
                                 <div className="flex-1">{person.facebook}</div>
+                                <div className="flex-1">{person.occupation}</div>
                                 <div className="flex-1">{person.interest}</div>
                                 <div className="flex-1">{person.why}</div>
                                 <div className="flex-1">{person.activity_favorite}</div>
