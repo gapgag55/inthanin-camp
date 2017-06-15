@@ -36,7 +36,7 @@ class Hero extends Component {
                     <h1>Inthanin</h1>
                     <h2>guide camp #1</h2>
                     <p>8,9,10 กรกฎาคม 2560</p>
-                    <p>สถานที่รอประกาศในถายหลัง</p>
+                    <p>(สถานที่รอประกาศในภายหลัง)</p>
                     <Scrollchor to="#section2" animate={{ offset: 0, duration: 800 }} className="button">สมัครเป็น Staff - (เฉพาะรุ่นพี่ที่จบ ม.ปลาย)</Scrollchor>
                 </div>
                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" style={{display: 'none'}}>
