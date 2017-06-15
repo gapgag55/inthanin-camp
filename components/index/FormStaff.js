@@ -74,16 +74,15 @@ class FormStaff extends Component {
             <div>
                 <section id="section2">
                     <div className="wrapper">
-                    <h3>ใบสมัครเป็นพี่ Staff</h3>
-                    <h4>(สิทธิ์เฉพาะรุ่นพี่ที่จบแล้ว) - สำหรับการเป็นพี่ Staff นั้นทุกคนจะถูกคัดเลือกจากพี่ๆกลุ่มมหาวิทยาลัยซึ่งผลประกาศจะแจ้งให้ทราบผ่านทาง <a href="https://www.facebook.com/inthaninguidecamp/" target="_blank">แฟนเพจ</a> โปรดกรอกแบบฟอร์มให้ดีที่สุด</h4>
                     <div className="schedule">
                         กำหนดการ 
                         <ul>
-                            <li>รับสมัคร Staff ตั้งแต่วันนี้ - 20 มิ.ย. 2560</li>
-                            <li>รับสมัครน้องค่าย วันที่ 21 - 30  มิ.ย. 2560</li>
-                            <li>ประกาศผลทั้ง Staff และน้องค่าย วันที่ 6 ก.ค. 2560</li>
+                            <li>รับสมัคร Staff วันนี้ - 20 มิ.ย. 2560 ประกาศผลวันที่ 21 มิ.ย. 2560</li>
+                            <li>รับสมัครน้องค่าย 21 - 30  มิ.ย. 2560 ประกาศผลวันที่ 5 ก.ค. 2560</li>
                         </ul>
                     </div>
+                    <h3>ใบสมัครเป็นพี่ Staff</h3>
+                    <h4>(สิทธิ์เฉพาะรุ่นพี่ที่จบแล้ว) - สำหรับการเป็นพี่ Staff นั้นทุกคนจะถูกคัดเลือกจากพี่ๆกลุ่มมหาวิทยาลัยซึ่งผลประกาศจะแจ้งให้ทราบผ่านทาง <a href="https://www.facebook.com/inthaninguidecamp/" target="_blank">แฟนเพจ</a> โปรดกรอกแบบฟอร์มให้ดีที่สุด</h4>
                     </div>
 
                     <form onSubmit={this.sendData.bind(this)} className="flex flex-wrap">
