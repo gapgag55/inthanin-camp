@@ -112,7 +112,11 @@ button {
     max-width: 100%;
 }
 
-@media screen and (max-width: 700px) {
+.schedule {
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
     #section2 {
         padding: 20px;
     }
@@ -133,5 +137,20 @@ button {
 
     .padding {
         box-sizing: border-box;
+    }
+
+    .schedule {
+        text-align: center;
+        display: block;
+        font-family: 'db_heaventlight';
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 1.2px;
+        margin-bottom: 20px !important;
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
     }
 }

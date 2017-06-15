@@ -86,17 +86,17 @@ var Hero = function (_Component) {
                     fileName: _jsxFileName,
                     lineNumber: 30
                 }
-            }, '\u0E23\u0E31\u0E1A\u0E2A\u0E21\u0E31\u0E04\u0E23 Staff \u0E15\u0E31\u0E49\u0E07\u0E41\u0E15\u0E48\u0E27\u0E31\u0E19\u0E19\u0E35\u0E49 - 20 \u0E21\u0E34\u0E16\u0E38\u0E19\u0E32\u0E22\u0E19 2560'), _react2.default.createElement('li', {
+            }, '\u0E23\u0E31\u0E1A\u0E2A\u0E21\u0E31\u0E04\u0E23 Staff \u0E15\u0E31\u0E49\u0E07\u0E41\u0E15\u0E48\u0E27\u0E31\u0E19\u0E19\u0E35\u0E49 - 20 \u0E21\u0E34.\u0E22. 2560'), _react2.default.createElement('li', {
                 __source: {
                     fileName: _jsxFileName,
                     lineNumber: 31
                 }
-            }, '\u0E23\u0E31\u0E1A\u0E2A\u0E21\u0E31\u0E04\u0E23\u0E19\u0E49\u0E2D\u0E07\u0E04\u0E48\u0E32\u0E22 \u0E27\u0E31\u0E19\u0E17\u0E35\u0E48 21 - 30 \u0E21\u0E34\u0E16\u0E38\u0E19\u0E32\u0E22\u0E19 2560'), _react2.default.createElement('li', {
+            }, '\u0E23\u0E31\u0E1A\u0E2A\u0E21\u0E31\u0E04\u0E23\u0E19\u0E49\u0E2D\u0E07\u0E04\u0E48\u0E32\u0E22 \u0E27\u0E31\u0E19\u0E17\u0E35\u0E48 21 - 30  \u0E21\u0E34.\u0E22. 2560'), _react2.default.createElement('li', {
                 __source: {
                     fileName: _jsxFileName,
                     lineNumber: 32
                 }
-            }, '\u0E1B\u0E23\u0E30\u0E01\u0E32\u0E28\u0E1C\u0E25\u0E17\u0E31\u0E49\u0E07 Staff \u0E41\u0E25\u0E30\u0E19\u0E49\u0E2D\u0E07\u0E04\u0E48\u0E32\u0E22 \u0E27\u0E31\u0E19\u0E17\u0E35\u0E48 6 \u0E01\u0E23\u0E01\u0E0E\u0E32\u0E04\u0E21 2560'))), _react2.default.createElement('section', { className: 'header', __source: {
+            }, '\u0E1B\u0E23\u0E30\u0E01\u0E32\u0E28\u0E1C\u0E25\u0E17\u0E31\u0E49\u0E07 Staff \u0E41\u0E25\u0E30\u0E19\u0E49\u0E2D\u0E07\u0E04\u0E48\u0E32\u0E22 \u0E27\u0E31\u0E19\u0E17\u0E35\u0E48 6 \u0E01.\u0E04. 2560'))), _react2.default.createElement('section', { className: 'header', __source: {
                     fileName: _jsxFileName,
                     lineNumber: 35
                 }

@@ -166,71 +166,79 @@ var FormStaff = function (_Component) {
                     fileName: _jsxFileName,
                     lineNumber: 78
                 }
-            }, 'Fanpage'), ' \u0E42\u0E1B\u0E23\u0E14\u0E01\u0E23\u0E2D\u0E01\u0E41\u0E1A\u0E1A\u0E1F\u0E2D\u0E23\u0E4C\u0E21\u0E43\u0E2B\u0E49\u0E14\u0E35\u0E17\u0E35\u0E48\u0E2A\u0E38\u0E14')), _react2.default.createElement('form', { onSubmit: this.sendData.bind(this), className: 'flex flex-wrap', __source: {
+            }, '\u0E41\u0E1F\u0E19\u0E40\u0E1E\u0E08'), ' \u0E42\u0E1B\u0E23\u0E14\u0E01\u0E23\u0E2D\u0E01\u0E41\u0E1A\u0E1A\u0E1F\u0E2D\u0E23\u0E4C\u0E21\u0E43\u0E2B\u0E49\u0E14\u0E35\u0E17\u0E35\u0E48\u0E2A\u0E38\u0E14'), _react2.default.createElement('div', { className: 'schedule', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 79
+                }
+            }, '\u0E01\u0E33\u0E2B\u0E19\u0E14\u0E01\u0E32\u0E23', _react2.default.createElement('ul', {
+                __source: {
                     fileName: _jsxFileName,
                     lineNumber: 81
                 }
-            }, _react2.default.createElement('div', { className: 'flex-1-3 padding', __source: {
+            }, _react2.default.createElement('li', {
+                __source: {
                     fileName: _jsxFileName,
                     lineNumber: 82
                 }
-            }, _react2.default.createElement('input', { type: 'text', placeholder: '\u0E0A\u0E37\u0E48\u0E2D - \u0E19\u0E32\u0E21\u0E2A\u0E01\u0E38\u0E25', ref: 'fname', required: true, __source: {
+            }, '\u0E23\u0E31\u0E1A\u0E2A\u0E21\u0E31\u0E04\u0E23 Staff \u0E15\u0E31\u0E49\u0E07\u0E41\u0E15\u0E48\u0E27\u0E31\u0E19\u0E19\u0E35\u0E49 - 20 \u0E21\u0E34.\u0E22. 2560'), _react2.default.createElement('li', {
+                __source: {
                     fileName: _jsxFileName,
                     lineNumber: 83
                 }
-            })), _react2.default.createElement('div', { className: 'flex-1-3 padding', __source: {
+            }, '\u0E23\u0E31\u0E1A\u0E2A\u0E21\u0E31\u0E04\u0E23\u0E19\u0E49\u0E2D\u0E07\u0E04\u0E48\u0E32\u0E22 \u0E27\u0E31\u0E19\u0E17\u0E35\u0E48 21 - 30  \u0E21\u0E34.\u0E22. 2560'), _react2.default.createElement('li', {
+                __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 85
+                    lineNumber: 84
                 }
-            }, _react2.default.createElement('input', { type: 'text', placeholder: '\u0E0A\u0E37\u0E48\u0E2D\u0E40\u0E25\u0E48\u0E19', ref: 'nname', required: true, __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 86
-                }
-            })), _react2.default.createElement('div', { className: 'flex-1-3 padding', __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 88
-                }
-            }, _react2.default.createElement('input', { type: 'text', placeholder: '\u0E2D\u0E34\u0E19\u0E17\u0E19\u0E34\u0E25\u0E23\u0E38\u0E48\u0E19', ref: 'gen', required: true, __source: {
+            }, '\u0E1B\u0E23\u0E30\u0E01\u0E32\u0E28\u0E1C\u0E25\u0E17\u0E31\u0E49\u0E07 Staff \u0E41\u0E25\u0E30\u0E19\u0E49\u0E2D\u0E07\u0E04\u0E48\u0E32\u0E22 \u0E27\u0E31\u0E19\u0E17\u0E35\u0E48 6 \u0E01.\u0E04. 2560')))), _react2.default.createElement('form', { onSubmit: this.sendData.bind(this), className: 'flex flex-wrap', __source: {
                     fileName: _jsxFileName,
                     lineNumber: 89
                 }
-            })), _react2.default.createElement('div', { className: 'flex-1 padding', __source: {
+            }, _react2.default.createElement('div', { className: 'flex-1-3 padding', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 90
+                }
+            }, _react2.default.createElement('input', { type: 'text', placeholder: '\u0E0A\u0E37\u0E48\u0E2D - \u0E19\u0E32\u0E21\u0E2A\u0E01\u0E38\u0E25', ref: 'fname', required: true, __source: {
                     fileName: _jsxFileName,
                     lineNumber: 91
                 }
-            }, _react2.default.createElement('input', { type: 'text', placeholder: '\u0E0A\u0E37\u0E48\u0E2D Facebook', ref: 'facebook', required: true, __source: {
+            })), _react2.default.createElement('div', { className: 'flex-1-3 padding', __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 92
+                    lineNumber: 93
                 }
-            })), _react2.default.createElement('div', { className: 'flex-1 padding', __source: {
+            }, _react2.default.createElement('input', { type: 'text', placeholder: '\u0E0A\u0E37\u0E48\u0E2D\u0E40\u0E25\u0E48\u0E19', ref: 'nname', required: true, __source: {
                     fileName: _jsxFileName,
                     lineNumber: 94
                 }
-            }, _react2.default.createElement('input', { type: 'text', placeholder: '\u0E23\u0E30\u0E1A\u0E38\u0E04\u0E13\u0E30\u0E2A\u0E32\u0E02\u0E32 \u0E21\u0E2B\u0E32\u0E27\u0E34\u0E17\u0E22\u0E32\u0E25\u0E31\u0E22\u0E02\u0E2D\u0E07\u0E17\u0E48\u0E32\u0E19 (\u0E2B\u0E32\u0E01\u0E44\u0E21\u0E48\u0E44\u0E14\u0E49\u0E40\u0E1B\u0E47\u0E19\u0E19\u0E31\u0E01\u0E28\u0E36\u0E01\u0E29\u0E32 \u0E23\u0E30\u0E1A\u0E38\u0E2A\u0E16\u0E32\u0E19\u0E20\u0E32\u0E1E\u0E1B\u0E31\u0E08\u0E08\u0E38\u0E1A\u0E31\u0E19\u0E21\u0E32\u0E1E\u0E2D\u0E40\u0E02\u0E49\u0E32\u0E43\u0E08)', ref: 'occupation', required: true, __source: {
+            })), _react2.default.createElement('div', { className: 'flex-1-3 padding', __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 95
+                    lineNumber: 96
                 }
-            })), _react2.default.createElement('div', { className: 'flex-1-2 padding', __source: {
+            }, _react2.default.createElement('input', { type: 'text', placeholder: '\u0E2D\u0E34\u0E19\u0E17\u0E19\u0E34\u0E25\u0E23\u0E38\u0E48\u0E19', ref: 'gen', required: true, __source: {
                     fileName: _jsxFileName,
                     lineNumber: 97
                 }
-            }, _react2.default.createElement('textarea', { placeholder: '\u0E2A\u0E34\u0E48\u0E07\u0E17\u0E35\u0E48\u0E2A\u0E19\u0E43\u0E08', ref: 'interest', required: true, __source: {
+            })), _react2.default.createElement('div', { className: 'flex-1 padding', __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 98
+                    lineNumber: 99
                 }
-            })), _react2.default.createElement('div', { className: 'flex-1-2 padding', __source: {
+            }, _react2.default.createElement('input', { type: 'text', placeholder: '\u0E0A\u0E37\u0E48\u0E2D Facebook', ref: 'facebook', required: true, __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 101
+                    lineNumber: 100
                 }
-            }, _react2.default.createElement('textarea', { placeholder: '\u0E04\u0E27\u0E32\u0E21\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E1E\u0E34\u0E40\u0E28\u0E29', ref: 'skill', required: true, __source: {
+            })), _react2.default.createElement('div', { className: 'flex-1 padding', __source: {
                     fileName: _jsxFileName,
                     lineNumber: 102
+                }
+            }, _react2.default.createElement('input', { type: 'text', placeholder: '\u0E23\u0E30\u0E1A\u0E38\u0E04\u0E13\u0E30\u0E2A\u0E32\u0E02\u0E32 \u0E21\u0E2B\u0E32\u0E27\u0E34\u0E17\u0E22\u0E32\u0E25\u0E31\u0E22\u0E02\u0E2D\u0E07\u0E17\u0E48\u0E32\u0E19 (\u0E2B\u0E32\u0E01\u0E44\u0E21\u0E48\u0E44\u0E14\u0E49\u0E40\u0E1B\u0E47\u0E19\u0E19\u0E31\u0E01\u0E28\u0E36\u0E01\u0E29\u0E32 \u0E23\u0E30\u0E1A\u0E38\u0E2A\u0E16\u0E32\u0E19\u0E20\u0E32\u0E1E\u0E1B\u0E31\u0E08\u0E08\u0E38\u0E1A\u0E31\u0E19\u0E21\u0E32\u0E1E\u0E2D\u0E40\u0E02\u0E49\u0E32\u0E43\u0E08)', ref: 'occupation', required: true, __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 103
                 }
             })), _react2.default.createElement('div', { className: 'flex-1-2 padding', __source: {
                     fileName: _jsxFileName,
                     lineNumber: 105
                 }
-            }, _react2.default.createElement('textarea', { placeholder: '\u0E40\u0E04\u0E22\u0E1C\u0E48\u0E32\u0E19\u0E04\u0E48\u0E32\u0E22\u0E44\u0E2B\u0E19\u0E21\u0E32\u0E1A\u0E49\u0E32\u0E07 (\u0E40\u0E27\u0E49\u0E19\u0E27\u0E48\u0E32\u0E07\u0E44\u0E14\u0E49)', ref: 'camp', __source: {
+            }, _react2.default.createElement('textarea', { placeholder: '\u0E2A\u0E34\u0E48\u0E07\u0E17\u0E35\u0E48\u0E2A\u0E19\u0E43\u0E08', ref: 'interest', required: true, __source: {
                     fileName: _jsxFileName,
                     lineNumber: 106
                 }
@@ -238,33 +246,49 @@ var FormStaff = function (_Component) {
                     fileName: _jsxFileName,
                     lineNumber: 109
                 }
-            }, _react2.default.createElement('textarea', { placeholder: '\u0E01\u0E34\u0E08\u0E01\u0E23\u0E23\u0E21\u0E17\u0E35\u0E48\u0E40\u0E04\u0E22\u0E17\u0E33\u0E41\u0E25\u0E49\u0E27\u0E1B\u0E23\u0E30\u0E17\u0E31\u0E1A\u0E43\u0E08\u0E04\u0E37\u0E2D\u0E2D\u0E30\u0E44\u0E23? \u0E40\u0E1E\u0E23\u0E32\u0E30\u0E2D\u0E30\u0E44\u0E23?', ref: 'activity_favorite', required: true, __source: {
+            }, _react2.default.createElement('textarea', { placeholder: '\u0E04\u0E27\u0E32\u0E21\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E1E\u0E34\u0E40\u0E28\u0E29', ref: 'skill', required: true, __source: {
                     fileName: _jsxFileName,
                     lineNumber: 110
                 }
-            })), _react2.default.createElement('div', { className: 'flex-1 padding', __source: {
+            })), _react2.default.createElement('div', { className: 'flex-1-2 padding', __source: {
                     fileName: _jsxFileName,
                     lineNumber: 113
                 }
-            }, _react2.default.createElement('textarea', { placeholder: '\u0E40\u0E2B\u0E15\u0E38\u0E1C\u0E25\u0E17\u0E35\u0E48\u0E21\u0E32\u0E2A\u0E21\u0E31\u0E04\u0E23\u0E40\u0E1B\u0E47\u0E19 Staff', ref: 'why', required: true, __source: {
+            }, _react2.default.createElement('textarea', { placeholder: '\u0E40\u0E04\u0E22\u0E1C\u0E48\u0E32\u0E19\u0E04\u0E48\u0E32\u0E22\u0E44\u0E2B\u0E19\u0E21\u0E32\u0E1A\u0E49\u0E32\u0E07 (\u0E40\u0E27\u0E49\u0E19\u0E27\u0E48\u0E32\u0E07\u0E44\u0E14\u0E49)', ref: 'camp', __source: {
                     fileName: _jsxFileName,
                     lineNumber: 114
                 }
-            })), _react2.default.createElement('div', { className: 'flex-1 padding', __source: {
+            })), _react2.default.createElement('div', { className: 'flex-1-2 padding', __source: {
                     fileName: _jsxFileName,
                     lineNumber: 117
                 }
-            }, _react2.default.createElement('textarea', { placeholder: '\u0E02\u0E49\u0E2D\u0E40\u0E2A\u0E19\u0E2D\u0E41\u0E19\u0E30\u0E19\u0E33', ref: 'suggestion', __source: {
+            }, _react2.default.createElement('textarea', { placeholder: '\u0E01\u0E34\u0E08\u0E01\u0E23\u0E23\u0E21\u0E17\u0E35\u0E48\u0E40\u0E04\u0E22\u0E17\u0E33\u0E41\u0E25\u0E49\u0E27\u0E1B\u0E23\u0E30\u0E17\u0E31\u0E1A\u0E43\u0E08\u0E04\u0E37\u0E2D\u0E2D\u0E30\u0E44\u0E23? \u0E40\u0E1E\u0E23\u0E32\u0E30\u0E2D\u0E30\u0E44\u0E23?', ref: 'activity_favorite', required: true, __source: {
                     fileName: _jsxFileName,
                     lineNumber: 118
                 }
-            })), _react2.default.createElement('div', { className: 'flex-1', __source: {
+            })), _react2.default.createElement('div', { className: 'flex-1 padding', __source: {
                     fileName: _jsxFileName,
                     lineNumber: 121
                 }
-            }, _react2.default.createElement('button', { type: 'submit', __source: {
+            }, _react2.default.createElement('textarea', { placeholder: '\u0E40\u0E2B\u0E15\u0E38\u0E1C\u0E25\u0E17\u0E35\u0E48\u0E21\u0E32\u0E2A\u0E21\u0E31\u0E04\u0E23\u0E40\u0E1B\u0E47\u0E19 Staff', ref: 'why', required: true, __source: {
                     fileName: _jsxFileName,
                     lineNumber: 122
+                }
+            })), _react2.default.createElement('div', { className: 'flex-1 padding', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 125
+                }
+            }, _react2.default.createElement('textarea', { placeholder: '\u0E02\u0E49\u0E2D\u0E40\u0E2A\u0E19\u0E2D\u0E41\u0E19\u0E30\u0E19\u0E33', ref: 'suggestion', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 126
+                }
+            })), _react2.default.createElement('div', { className: 'flex-1', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 129
+                }
+            }, _react2.default.createElement('button', { type: 'submit', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 130
                 }
             }, '\u0E2A\u0E48\u0E07\u0E04\u0E33\u0E15\u0E2D\u0E1A')))), this.popup());
         }
